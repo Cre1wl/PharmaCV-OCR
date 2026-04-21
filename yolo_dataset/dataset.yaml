@@ -1,0 +1,8 @@
+
+# YOLO dataset configuration
+path: D:\PyCharm 2025.3\PythonProject\ForLabelStudio\yolo_dataset
+train: train/images
+val: val/images
+
+nc: 5
+names: ['drug_name', 'expiry_date', 'batch_number', 'barcode', 'package']
